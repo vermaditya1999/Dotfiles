@@ -1,2 +1,2 @@
 # dotfiles 
-Configuration files for Linux or different softwares.
+Configuration files for Linux and different softwares.
