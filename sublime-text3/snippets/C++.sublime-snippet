@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define FAST_IO ios_base::sync_with_stdio(0); cin.tie(NULL); cout.tie(NULL)
+#define IN_PATH "/home/himself/Desktop/C++/input.txt"
+#define OUT_PATH "/home/himself/Desktop/C++/output.txt"
+
+typedef int64_t ll;
+
+int main()
+{
+	FAST_IO;
+
+	#ifndef ONLINE_JUDGE
+	freopen(IN_PATH, "r", stdin);
+    freopen(OUT_PATH, "w", stdout);
+	#endif
+
+	${1:}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>io</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
